@@ -13,13 +13,13 @@ Next Clipboard is a lightweight React hook that enables seamless text copying fu
 Use npm or yarn to install:
 
 ```sh
-npm install next-clipboard
+npm install next-clippy
 ```
 
 or
 
 ```sh
-yarn add next-clipboard
+yarn add next-clippy
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ yarn add next-clipboard
 Import and use the `useClipboard` hook in your component:
 
 ```tsx
-import { useClipboard } from "next-clipboard";
+import { useClipboard } from "next-clippy";
 
 export default function CopyComponent() {
     const { copy, copied } = useClipboard();
