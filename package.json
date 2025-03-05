@@ -1,6 +1,6 @@
 {
     "name": "next-clippy",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A next.js-friendly clipboard utility with support for text, JSON, HTML, and images.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
