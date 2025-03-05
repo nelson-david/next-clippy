@@ -1,16 +1,16 @@
-# Next Clippy
+# Next Clippy 📋
 
 Next Clippy is a lightweight React hook that enables seamless text copying functionality in Next.js applications.
 
-## Features
+## ✨ Features
 
--   Copy text to the clipboard effortlessly.
+-   📋 Copy text to the clipboard effortlessly.
 
--   Provides a `copied` state to track the copying status.
+-   🔄 Provides a `copied` state to track the copying status.
 
--   Optimized for Next.js and modern React development.
+-   ⚡ Optimized for Next.js and modern React development.
 
-## Installation
+## 📦 Installation
 
 Use npm or yarn to install:
 
@@ -28,7 +28,7 @@ yarn  add  next-clippy
 
 ```
 
-## Usage
+## 🛠 Usage
 
 Import and use the `useClipboard` hook in your component:
 
@@ -41,23 +41,23 @@ export default function CopyComponent() {
     return (
         <div>
             <button onClick={() => copy("Hello, World!")}>Copy Text</button>
-            {copied && <span>Copied!</span>}
+            {copied && <span>Copied! ✅</span>}
         </div>
     );
 }
 ```
 
-## API
+## 📜 API
 
 ### `useClipboard()`
 
 Returns an object containing:
 
--   `copy(text: string)`: Copies the provided text to the clipboard.
+-   📌 `copy(text: string)`: Copies the provided text to the clipboard.
 
--   `copied: boolean`: Indicates whether the text was recently copied.
+-   ✅ `copied: boolean`: Indicates whether the text was recently copied.
 
-## Running Tests
+## 🧪 Running Tests
 
 Ensure `jest` and `@testing-library/react-hooks` are installed. Then run:
 
@@ -67,10 +67,10 @@ npm  test
 
 ```
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
+Contributions are welcome! 🎉 Feel free to fork the repository and submit a pull request.
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. 📝
