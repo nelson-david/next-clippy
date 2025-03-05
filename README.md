@@ -1,9 +1,10 @@
 # Next Clippy 📋
 
+![Next Clippy Logo](./assets/logo.png)
+
 Next Clippy is a lightweight React hook that enables seamless text copying functionality in Next.js applications.
 
 <pre>
-
 
 </pre>
 
@@ -37,7 +38,6 @@ yarn  add  next-clippy
 
 <pre>
 
-
 </pre>
 
 ## 🛠 Usage
@@ -60,7 +60,6 @@ export default function CopyComponent() {
 ```
 
 <pre>
-
 
 </pre>
 
@@ -88,7 +87,6 @@ npm  test
 
 <pre>
 
-
 </pre>
 
 ## 🤝 Contributing
@@ -96,7 +94,6 @@ npm  test
 Contributions are welcome! 🎉 Feel free to fork the repository and submit a pull request.
 
 <pre>
-
 
 </pre>
 
