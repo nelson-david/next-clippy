@@ -1,11 +1,13 @@
-# Next Clipboard
+# Next Clippy
 
-Next Clipboard is a lightweight React hook that enables seamless text copying functionality in Next.js applications.
+Next Clippy is a lightweight React hook that enables seamless text copying functionality in Next.js applications.
 
 ## Features
 
 -   Copy text to the clipboard effortlessly.
+
 -   Provides a `copied` state to track the copying status.
+
 -   Optimized for Next.js and modern React development.
 
 ## Installation
@@ -13,13 +15,17 @@ Next Clipboard is a lightweight React hook that enables seamless text copying fu
 Use npm or yarn to install:
 
 ```sh
-npm install next-clippy
+
+npm  install  next-clippy
+
 ```
 
 or
 
 ```sh
-yarn add next-clippy
+
+yarn  add  next-clippy
+
 ```
 
 ## Usage
@@ -48,6 +54,7 @@ export default function CopyComponent() {
 Returns an object containing:
 
 -   `copy(text: string)`: Copies the provided text to the clipboard.
+
 -   `copied: boolean`: Indicates whether the text was recently copied.
 
 ## Running Tests
@@ -55,7 +62,9 @@ Returns an object containing:
 Ensure `jest` and `@testing-library/react-hooks` are installed. Then run:
 
 ```sh
-npm test
+
+npm  test
+
 ```
 
 ## Contributing
